@@ -1,0 +1,21 @@
+{
+	"name": "reddit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"reddit": "./app.js",
+		"me": "./read.js"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-fetch": "^2.6.1",
+		"open": "^8.2.1",
+		"yargs": "^17.1.1"
+	}
+}
